@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="15.487" tests="11" errors="0" skipped="0" failures="4">
+  <properties>
+    <property name="java.specification.version" value="23"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/najiha.brilianti/Documents/KREDIVO/JAVA/Assesment/RestAssure-master/target/test-classes:/Users/najiha.brilianti/Documents/KREDIVO/JAVA/Assesment/RestAssure-master/target/classes:/Users/najiha.brilianti/.m2/repository/io/rest-assured/rest-assured/3.3.0/rest-assured-3.3.0.jar:/Users/najiha.brilianti/.m2/repository/org/codehaus/groovy/groovy/2.4.15/groovy-2.4.15.jar:/Users/najiha.brilianti/.m2/repository/org/codehaus/groovy/groovy-xml/2.4.15/groovy-xml-2.4.15.jar:/Users/najiha.brilianti/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/najiha.brilianti/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/najiha.brilianti/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/najiha.brilianti/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar:/Users/najiha.brilianti/.m2/repository/org/apache/httpcomponents/httpmime/4.5.3/httpmime-4.5.3.jar:/Users/najiha.brilianti/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/najiha.brilianti/.m2/repository/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar:/Users/najiha.brilianti/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/najiha.brilianti/.m2/repository/io/rest-assured/json-path/3.3.0/json-path-3.3.0.jar:/Users/najiha.brilianti/.m2/repository/org/codehaus/groovy/groovy-json/2.4.15/groovy-json-2.4.15.jar:/Users/najiha.brilianti/.m2/repository/io/rest-assured/rest-assured-common/3.3.0/rest-assured-common-3.3.0.jar:/Users/najiha.brilianti/.m2/repository/io/rest-assured/xml-path/3.3.0/xml-path-3.3.0.jar:/Users/najiha.brilianti/.m2/repository/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar:/Users/najiha.brilianti/.m2/repository/javax/xml/bind/jaxb-api/2.2.12/jaxb-api-2.2.12.jar:/Users/najiha.brilianti/.m2/repository/com/sun/xml/bind/jaxb-osgi/2.2.10/jaxb-osgi-2.2.10.jar:/Users/najiha.brilianti/.m2/repository/org/apache/sling/org.apache.sling.javax.activation/0.1.0/org.apache.sling.javax.activation-0.1.0.jar:/Users/najiha.brilianti/.m2/repository/javax/activation/activation/1.1.1/activation-1.1.1.jar:/Users/najiha.brilianti/.m2/repository/org/testng/testng/6.13.1/testng-6.13.1.jar:/Users/najiha.brilianti/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/najiha.brilianti/.m2/repository/io/qameta/allure/allure-rest-assured/2.21.0/allure-rest-assured-2.21.0.jar:/Users/najiha.brilianti/.m2/repository/io/qameta/allure/allure-attachments/2.21.0/allure-attachments-2.21.0.jar:/Users/najiha.brilianti/.m2/repository/org/freemarker/freemarker/2.3.31/freemarker-2.3.31.jar:/Users/najiha.brilianti/.m2/repository/io/qameta/allure/allure-testng/2.21.0/allure-testng-2.21.0.jar:/Users/najiha.brilianti/.m2/repository/io/qameta/allure/allure-java-commons/2.21.0/allure-java-commons-2.21.0.jar:/Users/najiha.brilianti/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/najiha.brilianti/.m2/repository/io/qameta/allure/allure-model/2.21.0/allure-model-2.21.0.jar:/Users/najiha.brilianti/.m2/repository/io/qameta/allure/allure-test-filter/2.21.0/allure-test-filter-2.21.0.jar:/Users/najiha.brilianti/.m2/repository/org/aeonbits/owner/owner/1.0.8/owner-1.0.8.jar:/Users/najiha.brilianti/.m2/repository/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar:/Users/najiha.brilianti/.m2/repository/org/kohsuke/wordnet-random-name/1.3/wordnet-random-name-1.3.jar:/Users/najiha.brilianti/.m2/repository/org/assertj/assertj-core/3.11.1/assertj-core-3.11.1.jar:/Users/najiha.brilianti/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.9.4/jackson-databind-2.9.4.jar:/Users/najiha.brilianti/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0.jar:/Users/najiha.brilianti/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.9.4/jackson-core-2.9.4.jar:/Users/najiha.brilianti/.m2/repository/com/github/davidcarboni/resource-utils/1.1.2/resource-utils-1.1.2.jar:/Users/najiha.brilianti/.m2/repository/commons-io/commons-io/2.1/commons-io-2.1.jar:"/>
+    <property name="java.vm.vendor" value="Homebrew"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="user.timezone" value="Asia/Jakarta"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="23"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="ID"/>
+    <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/23/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/najiha.brilianti/Documents/KREDIVO/JAVA/Assesment/RestAssure-master/target/surefire/surefirebooter-20241016191154934_3.jar /Users/najiha.brilianti/Documents/KREDIVO/JAVA/Assesment/RestAssure-master/target/surefire 2024-10-16T19-11-54_893-jvmRun1 surefire-20241016191154934_1tmp surefire_0-20241016191154934_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/najiha.brilianti/Documents/KREDIVO/JAVA/Assesment/RestAssure-master/target/test-classes:/Users/najiha.brilianti/Documents/KREDIVO/JAVA/Assesment/RestAssure-master/target/classes:/Users/najiha.brilianti/.m2/repository/io/rest-assured/rest-assured/3.3.0/rest-assured-3.3.0.jar:/Users/najiha.brilianti/.m2/repository/org/codehaus/groovy/groovy/2.4.15/groovy-2.4.15.jar:/Users/najiha.brilianti/.m2/repository/org/codehaus/groovy/groovy-xml/2.4.15/groovy-xml-2.4.15.jar:/Users/najiha.brilianti/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/najiha.brilianti/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/najiha.brilianti/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/najiha.brilianti/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar:/Users/najiha.brilianti/.m2/repository/org/apache/httpcomponents/httpmime/4.5.3/httpmime-4.5.3.jar:/Users/najiha.brilianti/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/najiha.brilianti/.m2/repository/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar:/Users/najiha.brilianti/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/najiha.brilianti/.m2/repository/io/rest-assured/json-path/3.3.0/json-path-3.3.0.jar:/Users/najiha.brilianti/.m2/repository/org/codehaus/groovy/groovy-json/2.4.15/groovy-json-2.4.15.jar:/Users/najiha.brilianti/.m2/repository/io/rest-assured/rest-assured-common/3.3.0/rest-assured-common-3.3.0.jar:/Users/najiha.brilianti/.m2/repository/io/rest-assured/xml-path/3.3.0/xml-path-3.3.0.jar:/Users/najiha.brilianti/.m2/repository/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar:/Users/najiha.brilianti/.m2/repository/javax/xml/bind/jaxb-api/2.2.12/jaxb-api-2.2.12.jar:/Users/najiha.brilianti/.m2/repository/com/sun/xml/bind/jaxb-osgi/2.2.10/jaxb-osgi-2.2.10.jar:/Users/najiha.brilianti/.m2/repository/org/apache/sling/org.apache.sling.javax.activation/0.1.0/org.apache.sling.javax.activation-0.1.0.jar:/Users/najiha.brilianti/.m2/repository/javax/activation/activation/1.1.1/activation-1.1.1.jar:/Users/najiha.brilianti/.m2/repository/org/testng/testng/6.13.1/testng-6.13.1.jar:/Users/najiha.brilianti/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/najiha.brilianti/.m2/repository/io/qameta/allure/allure-rest-assured/2.21.0/allure-rest-assured-2.21.0.jar:/Users/najiha.brilianti/.m2/repository/io/qameta/allure/allure-attachments/2.21.0/allure-attachments-2.21.0.jar:/Users/najiha.brilianti/.m2/repository/org/freemarker/freemarker/2.3.31/freemarker-2.3.31.jar:/Users/najiha.brilianti/.m2/repository/io/qameta/allure/allure-testng/2.21.0/allure-testng-2.21.0.jar:/Users/najiha.brilianti/.m2/repository/io/qameta/allure/allure-java-commons/2.21.0/allure-java-commons-2.21.0.jar:/Users/najiha.brilianti/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/najiha.brilianti/.m2/repository/io/qameta/allure/allure-model/2.21.0/allure-model-2.21.0.jar:/Users/najiha.brilianti/.m2/repository/io/qameta/allure/allure-test-filter/2.21.0/allure-test-filter-2.21.0.jar:/Users/najiha.brilianti/.m2/repository/org/aeonbits/owner/owner/1.0.8/owner-1.0.8.jar:/Users/najiha.brilianti/.m2/repository/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar:/Users/najiha.brilianti/.m2/repository/org/kohsuke/wordnet-random-name/1.3/wordnet-random-name-1.3.jar:/Users/najiha.brilianti/.m2/repository/org/assertj/assertj-core/3.11.1/assertj-core-3.11.1.jar:/Users/najiha.brilianti/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.9.4/jackson-databind-2.9.4.jar:/Users/najiha.brilianti/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0.jar:/Users/najiha.brilianti/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.9.4/jackson-core-2.9.4.jar:/Users/najiha.brilianti/.m2/repository/com/github/davidcarboni/resource-utils/1.1.2/resource-utils-1.1.2.jar:/Users/najiha.brilianti/.m2/repository/commons-io/commons-io/2.1/commons-io-2.1.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/najiha.brilianti"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-09-17"/>
+    <property name="java.home" value="/opt/homebrew/Cellar/openjdk/23/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/najiha.brilianti/Documents/KREDIVO/JAVA/Assesment/RestAssure-master"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/najiha.brilianti/Documents/KREDIVO/JAVA/Assesment/RestAssure-master/target/surefire/surefirebooter-20241016191154934_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="23"/>
+    <property name="user.name" value="najiha.brilianti"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="14.6.1"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Homebrew"/>
+    <property name="localRepository" value="/Users/najiha.brilianti/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/j1/_n_qdk6x5hd5mw28yzfhqfgh0000gq/T/"/>
+    <property name="java.version" value="23"/>
+    <property name="user.dir" value="/Users/najiha.brilianti/Documents/KREDIVO/JAVA/Assesment/RestAssure-master"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/najiha.brilianti/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Homebrew"/>
+    <property name="java.vm.version" value="23"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="67.0"/>
+  </properties>
+  <testcase name="addPetTest" classname="petRequestTest" time="1.937">
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="findPetByIdTest" classname="petRequestTest" time="1.302">
+    <failure message="could not access constructor: private java.lang.AssertionError(java.lang.String) with arguments: [1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;404&gt;.&#10;] reason: java.lang.IllegalAccessException: class org.codehaus.groovy.reflection.CachedConstructor cannot access a member of class java.lang.AssertionError (in module java.base) with modifiers &quot;private&quot;" type="groovy.lang.GroovyRuntimeException"><![CDATA[groovy.lang.GroovyRuntimeException: 
+could not access constructor: private java.lang.AssertionError(java.lang.String) with arguments: [1 expectation failed.
+Expected status code <200> but was <404>.
+] reason: java.lang.IllegalAccessException: class org.codehaus.groovy.reflection.CachedConstructor cannot access a member of class java.lang.AssertionError (in module java.base) with modifiers "private"
+	at org.codehaus.groovy.reflection.CachedConstructor.createException(CachedConstructor.java:103)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:89)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:238)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:250)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:494)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:656)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:169)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:125)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:133)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:119)
+	at petRequestTest.findPetByIdTest(petRequestTest.java:49)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+]]></failure>
+  </testcase>
+  <testcase name="updatePetTest" classname="petRequestTest" time="1.351">
+    <failure message="could not access constructor: private java.lang.AssertionError(java.lang.String) with arguments: [1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;405&gt;.&#10;] reason: java.lang.IllegalAccessException: class org.codehaus.groovy.reflection.CachedConstructor cannot access a member of class java.lang.AssertionError (in module java.base) with modifiers &quot;private&quot;" type="groovy.lang.GroovyRuntimeException"><![CDATA[groovy.lang.GroovyRuntimeException: 
+could not access constructor: private java.lang.AssertionError(java.lang.String) with arguments: [1 expectation failed.
+Expected status code <200> but was <405>.
+] reason: java.lang.IllegalAccessException: class org.codehaus.groovy.reflection.CachedConstructor cannot access a member of class java.lang.AssertionError (in module java.base) with modifiers "private"
+	at org.codehaus.groovy.reflection.CachedConstructor.createException(CachedConstructor.java:103)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:89)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:250)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:494)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:656)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:169)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:125)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:133)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:119)
+	at petRequestTest.updatePetTest(petRequestTest.java:80)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+]]></failure>
+    <system-out><![CDATA[Request method:	PUT
+Request URI:	https://petstore.swagger.io/v2/user
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json, application/javascript, text/javascript, text/json
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": 1808,
+    "category": {
+        "id": 1808,
+        "name": "string"
+    },
+    "name": "meong",
+    "photoUrls": [
+        "string"
+    ],
+    "tags": [
+        {
+            "id": 1808,
+            "name": "string"
+        }
+    ],
+    "status": "sold"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="findPetByStatusTest" classname="petRequestTest" time="1.337">
+    <failure message="could not access constructor: private java.lang.AssertionError(java.lang.String) with arguments: [1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;404&gt;.&#10;] reason: java.lang.IllegalAccessException: class org.codehaus.groovy.reflection.CachedConstructor cannot access a member of class java.lang.AssertionError (in module java.base) with modifiers &quot;private&quot;" type="groovy.lang.GroovyRuntimeException"><![CDATA[groovy.lang.GroovyRuntimeException: 
+could not access constructor: private java.lang.AssertionError(java.lang.String) with arguments: [1 expectation failed.
+Expected status code <200> but was <404>.
+] reason: java.lang.IllegalAccessException: class org.codehaus.groovy.reflection.CachedConstructor cannot access a member of class java.lang.AssertionError (in module java.base) with modifiers "private"
+	at org.codehaus.groovy.reflection.CachedConstructor.createException(CachedConstructor.java:103)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:89)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:250)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:494)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:656)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:169)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:125)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:133)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:119)
+	at petRequestTest.findPetByStatusTest(petRequestTest.java:92)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+]]></failure>
+    <system-out><![CDATA[Request method:	GET
+Request URI:	https://petstore.swagger.io/v2/user/findByStatus?status=sold
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json, application/javascript, text/javascript, text/json
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+]]></system-out>
+  </testcase>
+  <testcase name="deletePetTest" classname="petRequestTest" time="1.324">
+    <failure message="could not access constructor: private java.lang.AssertionError(java.lang.String) with arguments: [1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;404&gt;.&#10;] reason: java.lang.IllegalAccessException: class org.codehaus.groovy.reflection.CachedConstructor cannot access a member of class java.lang.AssertionError (in module java.base) with modifiers &quot;private&quot;" type="groovy.lang.GroovyRuntimeException"><![CDATA[groovy.lang.GroovyRuntimeException: 
+could not access constructor: private java.lang.AssertionError(java.lang.String) with arguments: [1 expectation failed.
+Expected status code <200> but was <404>.
+] reason: java.lang.IllegalAccessException: class org.codehaus.groovy.reflection.CachedConstructor cannot access a member of class java.lang.AssertionError (in module java.base) with modifiers "private"
+	at org.codehaus.groovy.reflection.CachedConstructor.createException(CachedConstructor.java:103)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:89)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:250)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:494)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:656)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:169)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:125)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:133)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:119)
+	at petRequestTest.deletePetTest(petRequestTest.java:103)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+]]></failure>
+  </testcase>
+  <testcase name="createUser" classname="userRequestTest" time="1.339"/>
+  <testcase name="getUser" classname="userRequestTest" time="1.329"/>
+  <testcase name="updateUser" classname="userRequestTest" time="1.23"/>
+  <testcase name="loginUser" classname="userRequestTest" time="1.302"/>
+  <testcase name="deleteUser" classname="userRequestTest" time="1.314"/>
+  <testcase name="logoutUser" classname="userRequestTest" time="1.267"/>
+</testsuite>

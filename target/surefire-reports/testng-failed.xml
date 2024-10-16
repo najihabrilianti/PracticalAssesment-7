@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="classes" name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="1" parallel="classes" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="petRequestTest">
+        <methods>
+          <include name="deletePetTest"/>
+          <include name="findPetByIdTest"/>
+          <include name="TearDownSuite"/>
+          <include name="updatePetTest"/>
+          <include name="SetUpSuite"/>
+          <include name="findPetByStatusTest"/>
+        </methods>
+      </class> <!-- petRequestTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->
