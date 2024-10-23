@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 4 failed tests</span>
+      <span class="top-banner-font-1">1 suite, 14 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">11 methods, 4 failed,   7 passed</span>
+                    <span class="method-stats">21 methods, 14 failed,   7 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -113,6 +113,56 @@
                       <span>
                         <img src="failed.png" width="3%"/>
                         <a href="#" panel-name="suite-Surefire_suite" title="petRequestTest" class="method navigator-link" hash-for-method="findPetByStatusTest">findPetByStatusTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="recipesTest" class="method navigator-link" hash-for-method="getRandomRecipes">getRandomRecipes</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="recipesTest" class="method navigator-link" hash-for-method="searchRecipes">searchRecipes</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="recipesTest" class="method navigator-link" hash-for-method="searchRecipesByIngredients">searchRecipesByIngredients</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="recipesTest" class="method navigator-link" hash-for-method="searchRecipesByNutrient">searchRecipesByNutrient</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="mealPlanTest" class="method navigator-link" hash-for-method="testAddMealPlan">testAddMealPlan</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="recipesTest" class="method navigator-link" hash-for-method="testAnalyzeRecipe">testAnalyzeRecipe</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="ConnectUserTest" class="method navigator-link" hash-for-method="testConnectUser">testConnectUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="mealPlanTest" class="method navigator-link" hash-for-method="testImageClassification">testImageClassification</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="mealPlanTest" class="method navigator-link" hash-for-method="testMealPlannerGenerate">testMealPlannerGenerate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="mealPlanTest" class="method navigator-link" hash-for-method="testMealPlannerParameterGenerate">testMealPlannerParameterGenerate</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -179,6 +229,293 @@
           <div class="suite-Surefire_suite-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
+              <span class="class-name">recipesTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getRandomRecipes">
+                  </a> <!-- getRandomRecipes -->
+                  <span class="method-name">getRandomRecipes</span>
+                  <div class="stack-trace">groovy.lang.GroovyRuntimeException: could not access constructor: private java.lang.AssertionError(java.lang.String) with arguments: [1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;404&gt;.
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:250)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:494)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:656)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:169)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:125)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:133)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:119)
+	at recipesTest.getRandomRecipes(recipesTest.java:46)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+... Removed 14 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Test Get Random Recipes)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchRecipes">
+                  </a> <!-- searchRecipes -->
+                  <span class="method-name">searchRecipes</span>
+                  <div class="stack-trace">groovy.lang.GroovyRuntimeException: could not access constructor: private java.lang.AssertionError(java.lang.String) with arguments: [1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;404&gt;.
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:250)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:494)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:656)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:169)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:125)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:133)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:119)
+	at recipesTest.searchRecipes(recipesTest.java:25)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+... Removed 14 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Test Search Recipes)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchRecipesByIngredients">
+                  </a> <!-- searchRecipesByIngredients -->
+                  <span class="method-name">searchRecipesByIngredients</span>
+                  <div class="stack-trace">groovy.lang.GroovyRuntimeException: could not access constructor: private java.lang.AssertionError(java.lang.String) with arguments: [1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;404&gt;.
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:250)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:494)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:656)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:169)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:125)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:133)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:119)
+	at recipesTest.searchRecipesByIngredients(recipesTest.java:39)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+... Removed 14 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Test Search Recipes by Ingredients)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchRecipesByNutrient">
+                  </a> <!-- searchRecipesByNutrient -->
+                  <span class="method-name">searchRecipesByNutrient</span>
+                  <div class="stack-trace">groovy.lang.GroovyRuntimeException: could not access constructor: private java.lang.AssertionError(java.lang.String) with arguments: [1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;404&gt;.
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:250)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:494)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:656)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:169)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:125)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:133)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:119)
+	at recipesTest.searchRecipesByNutrient(recipesTest.java:32)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+... Removed 14 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Test Search Recipes by Nutrient)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAnalyzeRecipe">
+                  </a> <!-- testAnalyzeRecipe -->
+                  <span class="method-name">testAnalyzeRecipe</span>
+                  <div class="stack-trace">groovy.lang.GroovyRuntimeException: could not access constructor: private java.lang.AssertionError(java.lang.String) with arguments: [1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;404&gt;.
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:250)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:494)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:656)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:169)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:125)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:133)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:119)
+	at recipesTest.testAnalyzeRecipe(recipesTest.java:54)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+... Removed 14 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Analyze Recipe)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-failed -->
+          <div class="suite-Surefire_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">mealPlanTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAddMealPlan">
+                  </a> <!-- testAddMealPlan -->
+                  <span class="method-name">testAddMealPlan</span>
+                  <div class="stack-trace">groovy.lang.GroovyRuntimeException: could not access constructor: private java.lang.AssertionError(java.lang.String) with arguments: [1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;404&gt;.
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:238)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:250)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:494)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:116)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:128)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:656)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:51)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:157)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:169)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:125)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:51)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:157)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:169)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:133)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:119)
+	at mealPlanTest.testAddMealPlan(mealPlanTest.java:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+... Removed 14 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Add Mealplan)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testImageClassification">
+                  </a> <!-- testImageClassification -->
+                  <span class="method-name">testImageClassification</span>
+                  <div class="stack-trace">groovy.lang.GroovyRuntimeException: could not access constructor: private java.lang.AssertionError(java.lang.String) with arguments: [1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;404&gt;.
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:250)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:494)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:656)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:169)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:125)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:133)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:119)
+	at mealPlanTest.testImageClassification(mealPlanTest.java:76)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+... Removed 14 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Test Image Classfication)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMealPlannerGenerate">
+                  </a> <!-- testMealPlannerGenerate -->
+                  <span class="method-name">testMealPlannerGenerate</span>
+                  <div class="stack-trace">groovy.lang.GroovyRuntimeException: could not access constructor: private java.lang.AssertionError(java.lang.String) with arguments: [1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;404&gt;.
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:250)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:494)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:656)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:169)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:125)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:133)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:119)
+	at mealPlanTest.testMealPlannerGenerate(mealPlanTest.java:21)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+... Removed 14 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Test Meal Planner Generate)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMealPlannerParameterGenerate">
+                  </a> <!-- testMealPlannerParameterGenerate -->
+                  <span class="method-name">testMealPlannerParameterGenerate</span>
+                  <div class="stack-trace">groovy.lang.GroovyRuntimeException: could not access constructor: private java.lang.AssertionError(java.lang.String) with arguments: [1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;404&gt;.
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:250)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:494)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:656)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:169)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:125)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:133)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:119)
+	at mealPlanTest.testMealPlannerParameterGenerate(mealPlanTest.java:36)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+... Removed 14 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Test Meal Planner Generate With Parameter)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-failed -->
+          <div class="suite-Surefire_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
               <span class="class-name">petRequestTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -217,8 +554,6 @@ Expected status code &lt;200&gt; but was &lt;404&gt;.
                   <div class="stack-trace">groovy.lang.GroovyRuntimeException: could not access constructor: private java.lang.AssertionError(java.lang.String) with arguments: [1 expectation failed.
 Expected status code &lt;200&gt; but was &lt;404&gt;.
 	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
-	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:59)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:238)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:250)
 	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:494)
 	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
@@ -290,6 +625,43 @@ Expected status code &lt;200&gt; but was &lt;405&gt;.
 	at java.base/java.lang.Thread.run(Thread.java:1575)
 ... Removed 14 stack frames
 </div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-failed -->
+          <div class="suite-Surefire_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">ConnectUserTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testConnectUser">
+                  </a> <!-- testConnectUser -->
+                  <span class="method-name">testConnectUser</span>
+                  <div class="stack-trace">groovy.lang.GroovyRuntimeException: could not access constructor: private java.lang.AssertionError(java.lang.String) with arguments: [1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;404&gt;.
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:250)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:494)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:656)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:169)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:125)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:133)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:119)
+	at ConnectUserTest.testConnectUser(ConnectUserTest.java:26)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+... Removed 14 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Get Username and Hash)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -370,8 +742,11 @@ Expected status code &lt;200&gt; but was &lt;405&gt;.
 &lt;suite thread-count=&quot;1&quot; parallel=&quot;classes&quot; name=&quot;Surefire suite&quot; verbose=&quot;0&quot;&gt;
   &lt;test thread-count=&quot;1&quot; parallel=&quot;classes&quot; name=&quot;Surefire test&quot; verbose=&quot;0&quot;&gt;
     &lt;classes&gt;
+      &lt;class name=&quot;mealPlanTest&quot;/&gt;
+      &lt;class name=&quot;recipesTest&quot;/&gt;
       &lt;class name=&quot;petRequestTest&quot;/&gt;
       &lt;class name=&quot;BaseTest&quot;/&gt;
+      &lt;class name=&quot;ConnectUserTest&quot;/&gt;
       &lt;class name=&quot;userRequestTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Surefire test --&gt;
@@ -386,7 +761,7 @@ Expected status code &lt;200&gt; but was &lt;405&gt;.
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Surefire test (3 classes)</span>
+                <span class="test-name">Surefire test (6 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -412,56 +787,96 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(11);
+data.addRows(21);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'addPetTest')
-data.setCell(0, 2, 'petRequestTest')
-data.setCell(0, 3, 1950);
+data.setCell(0, 1, 'testAddMealPlan')
+data.setCell(0, 2, 'mealPlanTest')
+data.setCell(0, 3, 2131);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'updatePetTest')
-data.setCell(1, 2, 'petRequestTest')
-data.setCell(1, 3, 1354);
+data.setCell(1, 1, 'searchRecipesByIngredients')
+data.setCell(1, 2, 'recipesTest')
+data.setCell(1, 3, 1713);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'createUser')
-data.setCell(2, 2, 'userRequestTest')
-data.setCell(2, 3, 1341);
+data.setCell(2, 1, 'testAnalyzeRecipe')
+data.setCell(2, 2, 'recipesTest')
+data.setCell(2, 3, 1696);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'findPetByStatusTest')
+data.setCell(3, 1, 'deletePetTest')
 data.setCell(3, 2, 'petRequestTest')
-data.setCell(3, 3, 1333);
+data.setCell(3, 3, 1649);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'getUser')
 data.setCell(4, 2, 'userRequestTest')
-data.setCell(4, 3, 1330);
+data.setCell(4, 3, 1630);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'deletePetTest')
-data.setCell(5, 2, 'petRequestTest')
-data.setCell(5, 3, 1329);
+data.setCell(5, 1, 'searchRecipes')
+data.setCell(5, 2, 'recipesTest')
+data.setCell(5, 3, 1573);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'deleteUser')
-data.setCell(6, 2, 'userRequestTest')
-data.setCell(6, 3, 1314);
+data.setCell(6, 1, 'getRandomRecipes')
+data.setCell(6, 2, 'recipesTest')
+data.setCell(6, 3, 1573);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'loginUser')
-data.setCell(7, 2, 'userRequestTest')
-data.setCell(7, 3, 1303);
+data.setCell(7, 1, 'searchRecipesByNutrient')
+data.setCell(7, 2, 'recipesTest')
+data.setCell(7, 3, 1503);
 data.setCell(8, 0, 8)
 data.setCell(8, 1, 'findPetByIdTest')
 data.setCell(8, 2, 'petRequestTest')
-data.setCell(8, 3, 1294);
+data.setCell(8, 3, 1498);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'logoutUser')
-data.setCell(9, 2, 'userRequestTest')
-data.setCell(9, 3, 1267);
+data.setCell(9, 1, 'testImageClassification')
+data.setCell(9, 2, 'mealPlanTest')
+data.setCell(9, 3, 1497);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'updateUser')
+data.setCell(10, 1, 'logoutUser')
 data.setCell(10, 2, 'userRequestTest')
-data.setCell(10, 3, 1230);
+data.setCell(10, 3, 1495);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'findPetByStatusTest')
+data.setCell(11, 2, 'petRequestTest')
+data.setCell(11, 3, 1480);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'createUser')
+data.setCell(12, 2, 'userRequestTest')
+data.setCell(12, 3, 1474);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'testMealPlannerGenerate')
+data.setCell(13, 2, 'mealPlanTest')
+data.setCell(13, 3, 1441);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'testMealPlannerParameterGenerate')
+data.setCell(14, 2, 'mealPlanTest')
+data.setCell(14, 3, 1439);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'addPetTest')
+data.setCell(15, 2, 'petRequestTest')
+data.setCell(15, 3, 1428);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'updatePetTest')
+data.setCell(16, 2, 'petRequestTest')
+data.setCell(16, 3, 1403);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'testConnectUser')
+data.setCell(17, 2, 'ConnectUserTest')
+data.setCell(17, 3, 1399);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'deleteUser')
+data.setCell(18, 2, 'userRequestTest')
+data.setCell(18, 3, 1384);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'loginUser')
+data.setCell(19, 2, 'userRequestTest')
+data.setCell(19, 3, 1359);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'updateUser')
+data.setCell(20, 2, 'userRequestTest')
+data.setCell(20, 3, 1320);
 window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 15 seconds</span>
+              <span class="suite-total-time">Total running time: 32 seconds</span>
               <div id="times-div-Surefire_suite">
               </div> <!-- times-div-Surefire_suite -->
             </div> <!-- times-div -->
@@ -476,11 +891,29 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Surefire_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">2 ignored methods</span>
+            <span class="header-content">6 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="ignored-class-div">
+              <span class="ignored-class-name">recipesTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">TearDownSuite</span>
+                <br/>
+                <span class="ignored-method-name">SetUpSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
               <span class="ignored-class-name">BaseTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">TearDownSuite</span>
+                <br/>
+                <span class="ignored-method-name">SetUpSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">ConnectUserTest</span>
               <div class="ignored-methods-div">
                 <span class="ignored-method-name">TearDownSuite</span>
                 <br/>
@@ -503,24 +936,100 @@ return data;
               </div> <!-- configuration-suite before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
+              <div class="chronological-class-name">mealPlanTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">SetUpSuite</span>
+                <span class="method-start">121 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
               <div class="chronological-class-name">userRequestTest</div> <!-- chronological-class-name -->
               <div class="configuration-suite before">
                 <span class="method-name">SetUpSuite</span>
-                <span class="method-start">118 ms</span>
+                <span class="method-start">122 ms</span>
               </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">mealPlanTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testAddMealPlan</span>
+                <span class="method-start">130 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testImageClassification</span>
+                <span class="method-start">2285 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testMealPlannerGenerate</span>
+                <span class="method-start">3784 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testMealPlannerParameterGenerate</span>
+                <span class="method-start">5227 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">recipesTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">getRandomRecipes</span>
+                <span class="method-start">6669 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">searchRecipes</span>
+                <span class="method-start">8244 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">searchRecipesByIngredients</span>
+                <span class="method-start">9819 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">searchRecipesByNutrient</span>
+                <span class="method-start">11538 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testAnalyzeRecipe</span>
+                <span class="method-start">13042 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ConnectUserTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testConnectUser</span>
+                <span class="method-start">14740 ms</span>
+              </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">petRequestTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">addPetTest</span>
-                <span class="method-start">124 ms</span>
+                <span class="method-start">16141 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">userRequestTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">createUser</span>
-                <span class="method-start">2093 ms</span>
+                <span class="method-start">17570 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
@@ -529,14 +1038,14 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">findPetByIdTest</span>
-                <span class="method-start">3436 ms</span>
+                <span class="method-start">19046 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">userRequestTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">getUser</span>
-                <span class="method-start">4739 ms</span>
+                <span class="method-start">20546 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
@@ -545,14 +1054,14 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">updatePetTest</span>
-                <span class="method-start">6070 ms</span>
+                <span class="method-start">22178 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">userRequestTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">updateUser</span>
-                <span class="method-start">7426 ms</span>
+                <span class="method-start">23583 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
@@ -561,14 +1070,14 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">findPetByStatusTest</span>
-                <span class="method-start">8658 ms</span>
+                <span class="method-start">24905 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">userRequestTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">loginUser</span>
-                <span class="method-start">9995 ms</span>
+                <span class="method-start">26387 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
@@ -577,32 +1086,39 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">deletePetTest</span>
-                <span class="method-start">11299 ms</span>
+                <span class="method-start">27747 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">userRequestTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">deleteUser</span>
-                <span class="method-start">12630 ms</span>
+                <span class="method-start">29397 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">logoutUser</span>
-                <span class="method-start">13945 ms</span>
+                <span class="method-start">30782 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">petRequestTest</div> <!-- chronological-class-name -->
               <div class="configuration-suite after">
                 <span class="method-name">TearDownSuite</span>
-                <span class="method-start">15268 ms</span>
+                <span class="method-start">32337 ms</span>
+              </div> <!-- configuration-suite after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">mealPlanTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">TearDownSuite</span>
+                <span class="method-start">32339 ms</span>
               </div> <!-- configuration-suite after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">userRequestTest</div> <!-- chronological-class-name -->
               <div class="configuration-suite after">
                 <span class="method-name">TearDownSuite</span>
-                <span class="method-start">15269 ms</span>
+                <span class="method-start">32339 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

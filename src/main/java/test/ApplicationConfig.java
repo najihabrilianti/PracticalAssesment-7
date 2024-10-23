@@ -13,4 +13,13 @@ public interface ApplicationConfig extends Config {
 
     @Config.Key("server.baseUser")
     String baseUser();
+
+    @Config.Key("server.hostSpooner")
+    String hostSpooner();
+
+    @Config.Key("server.baseSpooner")
+    String baseSpooner();
+
+    @Config.Key("server.baseSpooner2")
+    String baseSpooner2();
 }

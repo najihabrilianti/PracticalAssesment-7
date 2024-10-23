@@ -1,4 +1,8 @@
-petRequestTest.class
+mealPlanTest.class
+recipesTest.class
 BaseTestUser.class
+BaseTestSpooner.class
+petRequestTest.class
+ConnectUserTest.class
 userRequestTest.class
 BaseTest.class
